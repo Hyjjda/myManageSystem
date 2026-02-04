@@ -1,1 +1,0 @@
-import{aI as e,aC as i}from"./index-B3l0UY6M.js";function s(t){return e("/stationList",t)}function a(t){return e("/station/submit",t)}function r(t){return e("/station/delete",{id:t})}function u(){return i("/crossData")}function o(t){return e("/revenueList",t)}function p(){return i("/currentList")}export{o as a,u as b,p as c,r as d,s as g,a as u};
