@@ -1,10 +1,6 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import '@/style.less'
-import Mock from 'mockjs'
-Mock.setup({
-  timeout: '200-600',
-})
 import '@/mock'
 import '@/router/guard'
 import App from './App.vue'
